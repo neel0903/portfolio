@@ -47,7 +47,7 @@
 <!-- End preloader inner -->
 </div>
 <!-- End preloader-->
--->
+
 
 <!--Wrapper-->
 <div id="wrapper" class="mt-150 mb-150">
@@ -282,6 +282,51 @@
 	  <img class="mySlides w3-animate-bottom" src="img/Implementation/Reports (Find Client Wise Invoice Record).PNG" style="width:100%">
 	    <img class="mySlides w3-animate-bottom" src="img/Implementation/Member side/Secure OTP.PNG" style="width:100%">
 		  <img class="mySlides w3-animate-bottom" src="img/Implementation/Member side/Member Home.PNG" style="width:100%">
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2500);    
+}
+</script>
+
+
+
+
+
+
+  </div>
+  </div>
+  </div>
+  
+  
+    
+	<div class="w3-container">
+  <h2>Windows Application</h2>
+  <p></p>
+</div>
+
+<div class="w3-content w3-section" >
+  <img class="mySlides w3-animate-bottom" src="img/Screenshot (10).png" style="width:100%">
+  <img class="mySlides w3-animate-top" src="img/Screenshot (3).png" style="width:100%">
+  <img class="mySlides w3-animate-bottom" src="img/Screenshot (4).png" style="width:100%">
+  <img class="mySlides w3-animate-top" src="img/Screenshot (5).png" style="width:100%">
+  <img class="mySlides w3-animate-bottom" src="img/Screenshot (6).png" style="width:100%">
+    <img class="mySlides w3-animate-bottom" src="img/Screenshot (7).png" style="width:100%">
+	  <img class="mySlides w3-animate-bottom" src="img/Screenshot (8).png" style="width:100%">
+	    <img class="mySlides w3-animate-bottom" src="img/Screenshot (9).png" style="width:100%">
+		 
 </div>
 
 <script>
