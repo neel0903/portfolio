@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="UTF-8"?><sqlb_project><db path="C:/Users/gunat/Desktop/Advance_Database/Mid_project/Invoice_Software.db" readonly="0" foreign_keys="1" case_sensitive_like="0" temp_store="0" wal_autocheckpoint="1000" synchronous="2"/><attached/><window><main_tabs open="structure browser pragmas query" current="3"/></window><tab_structure><column_width id="0" width="300"/><column_width id="1" width="0"/><column_width id="2" width="250"/><column_width id="3" width="7458"/><column_width id="4" width="0"/><expanded_item id="0" parent="1"/><expanded_item id="1" parent="1"/><expanded_item id="2" parent="1"/><expanded_item id="3" parent="1"/></tab_structure><tab_browse><current_table name="4,8:mainInvoices"/><default_encoding codec=""/><browse_table_settings><table schema="main" name="Category" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="217"/><column index="2" value="141"/><column index="3" value="300"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="Customers" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort><column index="4" mode="1"/></sort><column_widths><column index="1" value="226"/><column index="2" value="217"/><column index="3" value="223"/><column index="4" value="292"/><column index="5" value="300"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="Discounts" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="213"/><column index="2" value="300"/><column index="3" value="300"/><column index="4" value="300"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="Employees" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="233"/><column index="2" value="205"/><column index="3" value="199"/><column index="4" value="181"/><column index="5" value="300"/><column index="6" value="228"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="InvoiceDetails" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths/><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="Invoice_Details" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="189"/><column index="2" value="218"/><column index="3" value="213"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="Invoices" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort><column index="3" mode="0"/></sort><column_widths><column index="1" value="189"/><column index="2" value="161"/><column index="3" value="233"/><column index="4" value="178"/><column index="5" value="246"/><column index="6" value="300"/><column index="7" value="222"/><column index="8" value="240"/><column index="9" value="290"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="Orders" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="161"/><column index="2" value="226"/><column index="3" value="200"/><column index="4" value="205"/><column index="5" value="160"/><column index="6" value="246"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="Products" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="200"/><column index="2" value="217"/><column index="3" value="254"/><column index="4" value="300"/><column index="5" value="102"/><column index="6" value="135"/><column index="7" value="223"/><column index="8" value="278"/><column index="9" value="206"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="Sales" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="139"/><column index="2" value="226"/><column index="3" value="233"/><column index="4" value="191"/><column index="5" value="246"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="customer_order_history" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths/><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="customers_without_orders" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="287"/><column index="2" value="223"/><column index="3" value="292"/><column index="4" value="292"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="out_of_stock_products" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths/><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="product_inventory_levels" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="200"/><column index="2" value="254"/><column index="3" value="278"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="product_sales_by_category" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths/><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="product_supplier_info" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="200"/><column index="2" value="254"/><column index="3" value="286"/><column index="4" value="300"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="revenue_by_month" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="127"/><column index="2" value="254"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="top_5_customers" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="287"/><column index="2" value="300"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="total_sales_by_employee" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths/><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="unpaid_invoices" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths/><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table></browse_table_settings></tab_browse><tab_sql><sql name="SQL 1"></sql><sql name="Create_Statement - Copy.sql">-- create the Customers table
+CREATE TABLE &quot;Customers&quot; (
+	&quot;customer_id&quot;	NUMERIC,
+	&quot;name&quot;	TEXT NOT NULL,
+	&quot;address&quot;	TEXT NOT NULL,
+	&quot;contact_number&quot;	TEXT NOT NULL UNIQUE,
+	&quot;email&quot;	TEXT NOT NULL UNIQUE,
+	PRIMARY KEY(&quot;customer_id&quot;)
+);
+
+-- create the Products table
+CREATE TABLE &quot;Products&quot; (
+	&quot;product_id&quot;	INTEGER,
+	&quot;category_id&quot;	INTEGER NOT NULL,
+	&quot;name&quot;	TEXT NOT NULL,
+	&quot;description&quot;	TEXT,
+	&quot;price&quot;	REAL NOT NULL,
+	&quot;weight&quot;	REAL NOT NULL CHECK(weight &gt;0),
+	&quot;ups&quot;	TEXT NOT NULL,
+	&quot;inventory_level&quot;	NUMERIC NOT NULL CHECK(&quot;inventory_level&quot; &gt;= 0),
+	&quot;supplier_id&quot;	INTEGER NOT NULL,
+	PRIMARY KEY(&quot;product_id&quot;),
+	FOREIGN KEY(&quot;category_id&quot;) REFERENCES &quot;Category&quot;(&quot;category_id&quot;),
+	FOREIGN KEY(&quot;supplier_id&quot;) REFERENCES &quot;Suppliers&quot;(&quot;supplier_id&quot;)
+);
+
+-- create the Orders table
+CREATE TABLE &quot;Orders&quot; (
+	&quot;order_id&quot;	NUMERIC,
+	&quot;customer_id&quot;	INTEGER NOT NULL,
+	&quot;product_id&quot;	INTEGER NOT NULL,
+	&quot;order_date&quot;	TEXT NOT NULL,
+	&quot;quantity&quot;	INTEGER NOT NULL CHECK(&quot;quantity&quot; &gt;= 0),
+	&quot;total_amount&quot;	REAL NOT NULL CHECK(total_amount &gt;=0),
+	FOREIGN KEY(&quot;customer_id&quot;) REFERENCES &quot;Customers&quot;(&quot;customer_id&quot;),
+	FOREIGN KEY(&quot;product_id&quot;) REFERENCES &quot;Products&quot;(&quot;product_id&quot;),
+	PRIMARY KEY(&quot;order_id&quot;)
+);
+
+-- create the Invoices table
+CREATE TABLE &quot;Invoices&quot; (
+	&quot;invoice_id&quot;	INTEGER,
+	&quot;order_id&quot;	INTEGER NOT NULL,
+	&quot;invoice_date&quot;	DATE NOT NULL,
+	&quot;due_date&quot;	DATE,
+	&quot;total_amount&quot;	REAL NOT NULL CHECK(total_amount &gt;=0 ),
+	&quot;discount_amount&quot;	REAL NOT NULL CHECK(discount_amount &gt;=0),
+	&quot;tax_amount&quot;	REAL NOT NULL CHECK(tax_amount &gt;= 0),
+	&quot;paid_amount&quot;	REAL NOT NULL CHECK(paid_amount &gt;= 0),
+	&quot;payment_status&quot;	TEXT NOT NULL,
+	FOREIGN KEY(&quot;order_id&quot;) REFERENCES &quot;Orders&quot;(&quot;order_id&quot;),
+	PRIMARY KEY(&quot;invoice_id&quot;)
+);
+
+CREATE TABLE &quot;Invoice_Details&quot; (
+	&quot;invoice_id&quot;	INTEGER,
+	&quot;payment_id&quot;	INTEGER NOT NULL,
+	&quot;discount_id&quot;	INTEGER NOT NULL,
+	PRIMARY KEY(&quot;invoice_id&quot;),
+	FOREIGN KEY(&quot;payment_id&quot;) REFERENCES &quot;Payments&quot;(&quot;payment_id&quot;),
+	FOREIGN KEY(&quot;discount_id&quot;) REFERENCES &quot;Discounts&quot;(&quot;discount_id&quot;),
+	FOREIGN KEY(&quot;invoice_id&quot;) REFERENCES &quot;Invoices&quot;(&quot;invoice_id&quot;)
+);
+
+-- create the Payments table
+CREATE TABLE &quot;Payments&quot; (
+	&quot;payment_id&quot;	INTEGER,
+	&quot;order_id&quot;	INTEGER NOT NULL,
+	&quot;payment_date&quot;	DATE NOT NULL,
+	&quot;payment_amount&quot;	REAL NOT NULL CHECK(payment_amount &gt;=0),
+	&quot;payment_method&quot;	TEXT NOT NULL,
+	FOREIGN KEY(&quot;order_id&quot;) REFERENCES &quot;Orders&quot;(&quot;order_id&quot;),
+	PRIMARY KEY(&quot;payment_id&quot;)
+);
+
+-- create the Employees table
+CREATE TABLE &quot;Employees&quot; (
+	&quot;employee_id&quot;	INTEGER,
+	&quot;user_name&quot;	TEXT NOT NULL UNIQUE,
+	&quot;password&quot;	TEXT NOT NULL,
+	&quot;name&quot;	TEXT NOT NULL,
+	&quot;job_title&quot;	TEXT NOT NULL,
+	&quot;contact_info&quot;	TEXT NOT NULL UNIQUE,
+	PRIMARY KEY(&quot;employee_id&quot;)
+);
+
+-- create the Sales table
+CREATE TABLE Sales (
+    sale_id INTEGER PRIMARY KEY,
+    customer_id INTEGER NOT NULL,
+    employee_id INTEGER NOT NULL,
+    date_time TEXT NOT NULL,
+    total_amount REAL NOT NULL,
+    FOREIGN KEY (customer_id) REFERENCES Customers(customer_id),
+    FOREIGN KEY (employee_id) REFERENCES Employees(employee_id)
+);
+
+-- create the Category table
+CREATE TABLE Category (
+    category_id INTEGER PRIMARY KEY,
+    name TEXT NOT NULL,
+    description TEXT
+);
+
+-- create the Suppliers table
+CREATE TABLE &quot;Suppliers&quot; (
+	&quot;supplier_id&quot;	INTEGER,
+	&quot;name&quot;	TEXT NOT NULL,
+	&quot;address&quot;	TEXT NOT NULL,
+	&quot;city&quot;	TEXT NOT NULL,
+	&quot;state&quot;	TEXT NOT NULL,
+	&quot;country&quot;	TEXT NOT NULL,
+	&quot;contact_info&quot;	TEXT NOT NULL UNIQUE,
+	&quot;TIN_number&quot;	TEXT NOT NULL UNIQUE,
+	PRIMARY KEY(&quot;supplier_id&quot;)
+);
+
+CREATE TABLE Discounts (
+    discount_id INTEGER PRIMARY KEY,
+    name TEXT NOT NULL,
+    description TEXT,
+    discount_amount REAL NOT NULL
+);
+
+
+
+</sql><sql name="Delete_update - Copy.sql">--Update the price of a product with a specific product_id:
+
+UPDATE Products
+SET price = 19.99
+WHERE product_id = 123;
+
+
+
+--Update the address of a customer with a specific customer_id:
+
+UPDATE Customers
+SET address = '123 Main St.'
+WHERE customer_id = 456;
+
+--Delete an order with a specific order_id:
+
+DELETE FROM Products
+WHERE product_id = 11;
+
+DELETE FROM Customers WHERE customer_id = 11;
+--Update the name and description of a discount with a specific discount_id:
+
+UPDATE Discounts
+SET name = '10% off', description = 'New Year Sale'
+WHERE discount_id = 234;
+
+
+--Delete a product with a specific product_id:
+
+DELETE FROM Products
+WHERE product_id = 3
+
+ALTER TABLE Customers
+ADD CONSTRAINT unique_email
+UNIQUE (email);
+
+ALTER TABLE Customers
+ADD CONSTRAINT unique_email UNIQUE (email);
+
+</sql><sql name="Insert_Statements - Copy.sql">INSERT INTO Customers (customer_id,name, address, contact_number, email)
+VALUES (1, 'John Doe', '123 Main St', '555-1234', 'john.doe@example.com'),
+		(2,'Jane Doe', '456 Park Ave', '555-555-5678', 'jane.doe@email.com'),
+		(3,'Bob Johnson', '789 Elm St', '555-555-9012', 'bob.johnson@email.com'),
+		(4,'Sarah Lee', '321 Maple Ave', '555-555-3456', 'sarah.lee@email.com'),
+		(5,'David Chen', '654 Pine St', '555-555-7890', 'david.chen@email.com'),
+		(6,'Maria Garcia', '987 Oak Ave', '555-555-2345', 'maria.garcia@email.com'),
+		(7,'Michael Brown', '321 Elm St', '555-555-6789', 'michael.brown@email.com'),
+		(8,'Laura Davis', '654 Main St', '555-555-0123', 'laura.davis@email.com'), 		(9,'Peter Kim', '789 Maple Ave', '555-555-4567', 'peter.kim@email.com'),
+		(10,'Amanda Lee', '123 Pine St', '555-555-8901', 'amanda.lee@email.com');
+		
+		
+INSERT INTO Suppliers (supplier_id, name, address, city, state, country, contact_info, TIN_number) VALUES
+(1, 'ABC Suppliers', '123 Main St', 'Anytown', 'CA', 'USA', '555-1234', '123-45-6789'),
+(2, 'XYZ Company', '456 Elm St', 'Anycity', 'NY', 'USA', '555-5678', '987-65-4321'),
+(3, 'Acme Corporation', '789 Oak St', 'Anystate', 'TX', 'USA', '555-9012', '543-21-6789'),
+(4, 'Best Foods', '321 Maple St', 'Anycity', 'FL', 'USA', '555-3456', '876-54-3210'),
+(5, 'Global Imports', '654 Pine St', 'Anystate', 'CA', 'USA', '555-7890', '210-98-7654'),
+(6, 'Harvest Farms', '987 Cedar St', 'Anycity', 'NY', 'USA', '555-2345', '654-32-1098'),
+(7, 'Natures Bounty', '876 Birch St', 'Anystate', 'TX', 'USA', '555-6789', '890-12-3456'),
+(8, 'Organic Foods', '543 Cherry St', 'Anytown', 'CA', 'USA', '555-0123', '456-78-9012'),
+(9, 'Pure Protein', '210 Walnut St', 'Anycity', 'NY', 'USA', '555-4567', '789-01-2345'),
+(10, 'Super Supplements', '999 Chestnut St', 'Anystate', 'FL', 'USA', '555-8901', '321-09-8765');
+		
+	
+INSERT INTO Category (category_id, name, description)
+VALUES 
+(1, 'Grains', 'Cereal crops that are grown for their edible seeds'),
+(2, 'Pulses', 'Edible seeds of plants in the legume family'),
+(3, 'Oil Seeds', 'Seeds that are primarily grown for oil extraction'),
+(4, 'Flour', 'Ground grains used for baking and cooking'),
+(5, 'Others', 'Other food products that do not fit into the above categories');
+		
+		
+
+INSERT INTO Products (product_id, category_id, name, description, price, weight, ups, inventory_level, supplier_id)
+VALUES
+(1, 1, 'Wheat', 'A cereal grain used to make flour for bread', 5.99, 2.0, '123456789012', 100, 1),
+(2, 2, 'Lentils', 'A type of pulse used in soups and stews', 3.49, 1.5, '234567890123', 75, 2),
+(3, 3, 'Soybeans', 'A type of oilseed used to make soybean oil and other products', 10.99, 3.0, '345678901234', 50, 3),
+(4, 4, 'All-Purpose Flour', 'A versatile flour used for baking', 2.99, 2.5, '456789012345', 200, 4),
+(5, 1, 'Rice', 'A cereal grain used as a staple food', 4.99, 2.0, '567890123456', 150, 5),
+(6, 2, 'Chickpeas', 'A type of pulse used in Middle Eastern and Indian cuisine', 4.49, 1.5, '678901234567', 100, 6),
+(7, 3, 'Canola Seeds', 'A type of oilseed used to make canola oil', 8.99, 3.0, '789012345678', 50, 7),
+(8, 4, 'Bread Flour', 'A high-protein flour used for making bread', 3.49, 2.5, '890123456789', 100, 8),
+(9, 1, 'Barley', 'A cereal grain used for brewing and as a food source', 6.99, 2.0, '901234567890', 75, 9),
+(10, 5, 'Granola', 'A breakfast food consisting of rolled oats, nuts, and dried fruit', 7.99, 1.0, '012345678901', 100, 10);
+
+INSERT INTO Discounts (discount_id, name, description, discount_amount)
+VALUES 
+(11,'Regular Price','no discount at this time',0),
+(1, 'New Customer Discount', 'Get 10% off your first purchase', 0.1),
+(2, 'Holiday Sale', '25% off all items during the month of December', 0.25),
+(3, 'Clearance', 'Up to 50% off select items', 0.5),
+(4, 'Bulk Discount', 'Buy 10 or more of the same item and get 15% off', 0.15),
+(5, 'Membership Discount', '10% off for members', 0.1),
+(6, 'Student Discount', '15% off with valid student ID', 0.15),
+(7, 'Military Discount', '15% off with valid military ID', 0.15),
+(8, 'Senior Discount', '10% off for customers over 65', 0.1),
+(9, 'Birthday Discount', '20% off on your birthday', 0.2),
+(10, 'Referral Discount', 'Get 10% off for every friend you refer', 0.1);
+
+
+INSERT INTO Employees (employee_id, user_name, password, name, job_title, contact_info)
+VALUES
+(1, 'johndoe', 'password123', 'John Doe', 'Manager', '555-1234'),
+(2, 'janedoe', 'password456', 'Jane Doe', 'Sales Associate', '555-5678'),
+(3, 'bobsmith', 'password789', 'Bob Smith', 'Shipping Coordinator', '555-9012'),
+(4, 'sarahjones', 'passwordabc', 'Sarah Jones', 'Customer Service Representative', '555-3456'),
+(5, 'mikebrown', 'passworddef', 'Mike Brown', 'IT Specialist', '555-7890');
+
+INSERT INTO Orders (order_id, customer_id, product_id, order_date, quantity, total_amount)
+VALUES
+(1, 1, 2, '2022-01-01', 3, 10.47),
+(2, 2, 5, '2022-01-02', 2, 9.98),
+(3, 3, 7, '2022-01-03', 1, 8.99),
+(4, 4, 4, '2022-01-04', 4, 11.96),
+(5, 5, 1, '2022-01-05', 2, 11.98),
+(6, 6, 6, '2022-01-06', 3, 13.47),
+(7, 7, 9, '2022-01-07', 1, 6.99),
+(8, 8, 8, '2022-01-08', 2, 6.98),
+(9, 9, 3, '2022-01-09', 1, 10.99),
+(10, 10, 10, '2022-01-10', 1, 7.99);
+
+
+
+
+INSERT INTO Payments (payment_id, order_id, payment_date, payment_amount, payment_method) VALUES
+(1, 1, '2022-01-02', 10.47, 'Credit Card'),
+(2, 2, '2022-01-03', 9.98, 'PayPal'),
+(3, 3, '2022-01-04', 8.99, 'Venmo'),
+(4, 4, '2022-01-05', 11.96, 'Cash'),
+(5, 5, '2022-01-06', 11.98, 'Credit Card'),
+(6, 6, '2022-01-07', 13.47, 'PayPal'),
+(7, 7, '2022-01-08', 6.99, 'Venmo'),
+(8, 8, '2022-01-09', 6.98, 'Cash'),
+(9, 9, '2022-01-10', 10.99, 'Credit Card'),
+(10, 10, '2022-01-11', 7.99, 'PayPal');
+
+INSERT INTO Invoices (invoice_id, order_id,invoice_date, due_date, total_amount, discount_amount, tax_amount, paid_amount, payment_status)
+VALUES
+(1, 1, '2022-01-02', '2022-01-16', 10.47, 0, 0.9443, 10.47, 'Paid'),
+(2, 2, '2022-01-03', '2022-01-17', 9.98, 0, 0.8984, 9.98, 'Paid'),
+(3, 3,'2022-01-04', '2022-01-18', 8.99, 0, 0.8091, 8.99, 'Paid'),
+(4, 4, '2022-01-05', '2022-01-19', 11.96, 0, 1.0764, 11.96, 'Paid'),
+(5, 5, '2022-01-06', '2022-01-20', 11.98, 0, 1.0782, 11.98, 'Paid'),
+(6, 6,  '2022-01-07', '2022-01-21', 13.47, 0, 1.2123, 13.47, 'Paid'),
+(7, 7, '2022-01-08', '2022-01-22', 6.99, 0, 0.6291, 6.99, 'Paid'),
+(8, 8,  '2022-01-09', '2022-01-23', 6.98, 0, 0.6282, 6.98, 'Paid'),
+(9, 9,  '2022-01-10', '2022-01-24', 10.99, 0, 0.9891, 10.99, 'UnPaid'),
+(10, 10, '2022-01-11', '2022-01-25', 7.99, 0, 0.7191, 7.99, 'Paid');
+ 
+INSERT INTO Invoice_Details (
+	&quot;invoice_id&quot;,
+	&quot;payment_id&quot;,
+	&quot;discount_id&quot;)
+VALUES
+(1,1,11),
+( 2, 2,11),
+( 3,3,11),
+( 4,4,11),
+( 5,5,11),
+(6, 6,11),
+( 7, 7,11),
+(8,  8,11),
+(9, 9,11),
+(10, 10,11);
+	
+);	
+
+INSERT INTO Sales (sale_id, customer_id, employee_id, date_time, total_amount)
+VALUES 
+(1, 1, 2, '2022-01-01 10:00:00', 50.0),
+(2, 3, 4, '2022-01-02 11:30:00', 75.0),
+(3, 2, 3, '2022-01-03 12:45:00', 30.0),
+(4, 5, 1, '2022-01-04 14:20:00', 20.0),
+(5, 4, 2, '2022-01-05 15:10:00', 45.0),
+(6, 6, 1, '2022-01-06 16:30:00', 60.0),
+(7, 8, 4, '2022-01-07 17:15:00', 55.0),
+(8, 7, 3, '2022-01-08 18:20:00', 40.0),
+(9, 10, 2, '2022-01-09 19:40:00', 25.0),
+(10, 9, 1, '2022-01-10 20:50:00', 35.0);
+
+</sql><sql name="Select_Statement - Copy.sql">
+--Select all data from Customers table
+SELECT * FROM Customers;
+
+--Select data from Customers table where customer_id = 3
+SELECT * FROM Customers WHERE customer_id = 11;
+
+--Select data from Products table where price is greater than 5
+SELECT * FROM Products WHERE price &gt; 5;
+
+--Select data from Products table where category_id is either 1 or 2
+SELECT * FROM Products WHERE category_id IN (1, 2);
+
+--Select data from Products table ordered by price in descending order
+SELECT * FROM Products ORDER BY price DESC;
+
+--Select the total number of products in each category
+SELECT Category.name, COUNT(Products.product_id) AS total_products
+FROM Products
+INNER JOIN Category ON Products.category_id = Category.category_id
+GROUP BY Category.name;
+
+--Select the total inventory value for each supplier
+SELECT Suppliers.name, SUM(Products.inventory_level * Products.price) AS inventory_value
+FROM Products
+INNER JOIN Suppliers ON Products.supplier_id = Suppliers.supplier_id
+GROUP BY Suppliers.name;
+
+
+--Retrieve all products with a weight greater than 10 lbs:
+SELECT * FROM Products WHERE weight &gt; 10;
+
+--Retrieve the total revenue generated by a specific product:
+SELECT SUM(total_amount) AS revenue
+FROM Orders 
+WHERE product_id = '4';
+
+--Retrieve the top 5 best-selling products:
+SELECT Products.name, SUM(Orders.quantity) AS total_quantity 
+FROM Products 
+JOIN Orders ON Products.product_id = Orders.product_id 
+GROUP BY Products.name 
+ORDER BY total_quantity DESC 
+LIMIT 5;
+
+--Retrieve all invoices for a specific customer:
+SELECT Invoices.invoice_id, Invoices.invoice_date, Invoices.total_amount , Customers.name AS customer_name
+FROM Invoices 
+JOIN Orders ON Invoices.order_id = Orders.order_id 
+JOIN Customers ON Orders.customer_id = Customers.customer_id 
+WHERE Customers.customer_id = 1;
+
+
+
+
+--Retrieve the total revenue generated by all sales in a given time period:
+SELECT SUM(total_amount) AS revenue 
+FROM Invoices
+WHERE invoice_date BETWEEN '2022-01-02' AND '2022-01-04';
+
+--Retrieve the name and contact information of all suppliers who provide products in a specific category:
+SELECT DISTINCT Suppliers.name, Suppliers.contact_info 
+FROM Suppliers 
+JOIN Products ON Products.supplier_id = Suppliers.supplier_id 
+WHERE Products.category_id = '3';
+
+
+--Retrieve the name and address of all customers who have placed an order in a specific time period:
+SELECT DISTINCT Customers.name, Customers.address 
+FROM Customers 
+JOIN Orders ON Orders.customer_id = Customers.customer_id 
+WHERE Orders.order_date BETWEEN '2022-01-01' AND '2022-01-04';
+
+
+
+
+
+SELECT * FROM Customers;</sql><sql name="triggers.sql">
+CREATE TRIGGER update_inventory_level
+AFTER INSERT ON Orders
+FOR EACH ROW
+BEGIN
+  UPDATE Products SET inventory_level = inventory_level - NEW.quantity
+  WHERE product_id = NEW.product_id;
+END;
+
+--Trigger to update total amount in Invoices table after an order is placed:
+
+CREATE TRIGGER update_total_amount
+AFTER INSERT ON Orders
+BEGIN
+  INSERT INTO Invoices (order_id, payment_id, discount_id, customer_id, invoice_date, due_date, total_amount, discount_amount, tax_amount, paid_amount, payment_status)
+  VALUES (NEW.order_id, NULL, NULL, NEW.customer_id, NEW.order_date, NULL, NEW.quantity * Products.price, 0, 0, 0, 'unpaid');
+END;</sql><sql name="views.sql">--View to show customer order history
+
+CREATE VIEW customer_order_history AS 
+SELECT 
+    o.order_id,o.order_date,o.product_id,p.name,p.description,p.price,o.quantity, 
+    c.customer_id,c.name,c.address,c.contact_number,c.email 
+FROM 
+    orders o 
+    JOIN customers c 
+    ON o.customer_id = c.customer_id
+    JOIN products p
+    ON o.product_id = p.product_id;
+
+--View to show product inventory levels
+CREATE VIEW product_inventory_levels AS
+SELECT p.product_id, p.name, p.inventory_level
+FROM Products p;
+
+--View to show total sales by employee:
+CREATE VIEW total_sales_by_employee AS
+SELECT e.employee_id, e.name, SUM(s.total_amount) AS total_sales
+FROM Sales s
+JOIN Employees e ON s.employee_id = e.employee_id
+GROUP BY e.employee_id;
+
+
+--View to show supplier information for a product
+CREATE VIEW product_supplier_info AS
+SELECT p.product_id, p.name, s.name AS supplier_name, s.contact_info AS supplier_contact_info
+FROM Products p
+JOIN Suppliers s ON p.supplier_id = s.supplier_id;
+
+--View to show unpaid invoices
+CREATE VIEW unpaid_invoices AS
+SELECT i.invoice_id, o.order_id, c.name AS customer_name, i.total_amount, i.due_date
+FROM Invoices i
+JOIN Orders o ON i.order_id = o.order_id
+JOIN Customers c ON o.customer_id = c.customer_id
+WHERE i.paid_amount &lt; i.total_amount;
+
+--View to show product sales by category
+CREATE VIEW product_sales_by_category AS
+SELECT c.name AS category_name, p.name AS product_name, SUM(o.quantity) AS total_quantity_sold
+FROM Products p
+JOIN Category c ON p.category_id = c.category_id
+JOIN Orders o ON p.product_id = o.product_id
+GROUP BY c.name, p.name;
+
+--Top 5 Customers
+--This view can show the top 5 customers based on their total purchase amount.
+CREATE VIEW top_5_customers AS
+SELECT c.name AS customer_name, SUM(o.total_amount) AS total_purchase_amount
+FROM Customers c
+JOIN Orders o ON c.customer_id = o.customer_id
+GROUP BY c.customer_id
+ORDER BY total_purchase_amount DESC
+LIMIT 5;
+
+--Out of Stock Products
+--This view can show the list of products that are out of stock.
+CREATE VIEW out_of_stock_products AS
+SELECT p.name AS product_name, p.inventory_level AS current_inventory
+FROM Products p
+WHERE p.inventory_level = 0;
+
+--Total Revenue by Month
+--This view can show the total revenue for each month.
+
+CREATE VIEW revenue_by_month AS
+SELECT strftime('%Y-%m', o.order_date) AS month, SUM(o.total_amount) AS total_revenue
+FROM Orders o
+GROUP BY strftime('%Y-%m', o.order_date)
+ORDER BY month;
+
+--Customers without Orders
+--This view can show the list of customers who haven't placed any orders
+
+CREATE VIEW customers_without_orders AS
+SELECT c.name AS customer_name, c.address, c.contact_number, c.email
+FROM Customers c
+LEFT JOIN Orders o ON c.customer_id = o.customer_id
+WHERE o.order_id IS NULL;
+
+
+</sql><sql name="SQL 8">--Testing and Validation of SQL Statements:
+
+--Customers Table:
+--Inserting valid data:
+INSERT INTO Customers (customer_id, name, address, contact_number, email) VALUES (1, 'John', '123 Main Street', '123-456-7890', 'john@example.com');
+
+--Inserting duplicate email (violating unique constraint):
+INSERT INTO Customers (customer_id, name, address, contact_number, email) VALUES (12, 'Mary', '456 Oak Street', '098-765-4321', 'john@example.com');
+--Result: Error message &quot;UNIQUE constraint failed: Customers.email&quot;
+
+
+--Products Table:
+--Inserting valid data:
+
+INSERT INTO Products (product_id, category_id, name, description, price, weight, ups, inventory_level, supplier_id) VALUES (1, 1, 'Product 1', 'Description 1', 10.99, 0.5, '123456', 10, 1);
+Inserting invalid weight (violating check constraint):
+
+INSERT INTO Products (product_id, category_id, name, description, price, weight, ups, inventory_level, supplier_id) VALUES (2, 2, 'Product 2', 'Description 2', 20.99, -1, '654321', 5, 2);
+--Result: Error message &quot;CHECK constraint failed: Products.weight&quot;
+--Orders Table:
+
+--Inserting valid data:
+INSERT INTO Orders (order_id, customer_id, product_id, order_date, quantity, total_amount) VALUES (1, 1, 1, '2023-03-07', 2, 21.98);
+Inserting negative quantity (violating check constraint):
+
+INSERT INTO Orders (order_id, customer_id, product_id, order_date, quantity, total_amount) VALUES (2, 2, 2, '2023-03-07', -1, 0);
+--Result: Error message &quot;CHECK constraint failed: Orders.quantity&quot;
+
+--Invoices Table:
+--Inserting valid data:
+INSERT INTO Invoices (invoice_id, order_id, invoice_date, due_date, total_amount, discount_amount, tax_amount, paid_amount, payment_status) VALUES (1, 1, '2023-03-07', '2023-03-14', 20.00, 2.00, 1.00, 17.00, 'Paid');
+--Inserting negative total amount (violating check constraint):
+INSERT INTO Invoices (invoice_id, order_id, invoice_date, due_date, total_amount, discount_amount, tax_amount, paid_amount, payment_status) VALUES (2, 2, '2023-03-07', '2023-03-14', -10.00, 0, 0, 0, 'Unpaid');
+--Result: Error message &quot;CHECK constraint failed: Invoices.total_amount&quot;
+
+--Invoice_Details Table:
+--Inserting valid data:
+INSERT INTO Invoice_Details (invoice_id, payment_id, discount_id) VALUES (1, 1, 1);
+--Inserting duplicate invoice id (violating primary key constraint):
+
+INSERT INTO Invoice_Details (invoice_id, payment_id, discount_id) VALUES (1, 2, 2);
+--Result: Error message &quot;UNIQUE constraint failed: Invoice_Details.invoice_id&quot;
+
+--Payments Table:
+--Inserting valid data:
+
+INSERT INTO Payments (payment_id, order_id, payment_date, payment_amount, payment_method) VALUES (1, 1, '2023-03-07', 17.00, 'Credit Card');
+--Inserting negative payment amount (violating primary key constraint);</sql><current_tab id="1"/></tab_sql></sqlb_project>
