@@ -133,21 +133,30 @@
 								<!--End block content-->
 								
 <style>
-    .experience-detail {
-        position: relative;
-    }
+body{
+  margin:0;
+  display:flex;
+  align-items:center;
+  justify-content: center;
+  height: 100vh;
+  
+}
 
-    .experience-detail:hover::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background-color: rgba(0, 0, 0, 0.2);
-        z-index: -1;
-    }
-</style>
+
+h4:before{
+  content:"text";
+  position:absolute;
+  color:#262626;
+  top:0;
+  left:0;
+  width:0%;
+  overflow:hidden;
+  transition:all 0.5s;
+}
+h4:hover:before{
+  width:100%;
+}
+							</style>
 
 <!--Block content-->
 <div class="block-content mb-100 pb-10">
@@ -173,7 +182,7 @@
                     </div>
                     <div class="detail experience-detail">
                         <p><strong>Responsibilities:</strong></p>
-                        <ul style="list-style-position: inside; text-align: justify;">
+                        <ul style="list-style-position: inside; text-align: justify;list-style-type:circle";>
                             <li>Created ASP. NET web pages that provide new features and enhanced user experience.</li>
                             <li>Worked on web applications developed using ASP.NET MVC framework.</li>
                             <li>Involved in the Design and Architecture of the ASP.Net application, WCF, and Web API-based Web Services.</li>
@@ -200,8 +209,9 @@
                         <h4>Software Developer - Intern Greycell Labs, Inc., Edison, USA</h4>
                     </div>
                     <div class="detail experience-detail">
+			    <h4>
                         <p><strong>Responsibilities:</strong></p>
-                        <ul style="list-style-position: inside; text-align: justify;">
+                        <ul style="list-style-position: inside; text-align: justify;list-style-type:circle;">
                             <li>Developing technical design documents and program specifications. Guiding requirements gathering sessions.</li>
                             <li>Provide the analysis, design, development, and code review of enterprise applications using JAVA/JEE, JSF, Web Services, and the IBM Portal/WebSphere Application development software.</li>
                             <li>Involve in development activities which may include data analysis, data access, data structures, data manipulation, preparing logical database models, testing, and implementation.</li>
@@ -211,6 +221,7 @@
                             <li>Coding, and performing unit and integration tests of programming assignments. Coordinating with the development team on development activities and integration testing. Performance tunes new and existing applications. Writing and tuning SQL; Supporting user testing efforts.</li>
                             <li>Other project related similar responsibilities.</li>
                         </ul>
+			    </h4>
                     </div>
                 </div>
             </div>
