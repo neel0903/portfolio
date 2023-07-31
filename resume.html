@@ -132,25 +132,38 @@
 								</div>
 								<!--End block content-->
 								
-<!--Block content-->
-<div class="block-content mb-100  pb-10">
+<style>
+    .experience-detail {
+        position: relative;
+    }
 
+    .experience-detail:hover::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.2);
+        z-index: -1;
+    }
+</style>
+
+<!--Block content-->
+<div class="block-content mb-100 pb-10">
     <!--Row-->
     <div class="row">
-
-        <div class="col-md-12  ">
-
+        <div class="col-md-12">
             <div class="sub-title mb-40">
                 <h2 class="uppercase">Experience</h2>
             </div>
-
         </div>
     </div>
     <!--End row-->
 
     <!--Row-->
     <div class="row">
-        <div class="col-md-12  ">
+        <div class="col-md-12">
             <!--Timeline-->
             <div class="timeline">
                 <div class="timeline-inner">
@@ -158,7 +171,7 @@
                         <span class="date">May 2020 - May 2021</span>
                         <h4>Software Developer – Janki Agro Processing</h4>
                     </div>
-                    <div class="detail">
+                    <div class="detail experience-detail">
                         <p><strong>Responsibilities:</strong></p>
                         <ul style="list-style-position: inside; text-align: justify;">
                             <li>Created ASP. NET web pages that provide new features and enhanced user experience.</li>
@@ -178,7 +191,7 @@
 
     <!--Row-->
     <div class="row">
-        <div class="col-md-12  ">
+        <div class="col-md-12">
             <!--Timeline-->
             <div class="timeline">
                 <div class="timeline-inner">
@@ -186,7 +199,7 @@
                         <span class="date">July 2023 - Present</span>
                         <h4>Software Developer - Intern Greycell Labs, Inc., Edison, USA</h4>
                     </div>
-                    <div class="detail">
+                    <div class="detail experience-detail">
                         <p><strong>Responsibilities:</strong></p>
                         <ul style="list-style-position: inside; text-align: justify;">
                             <li>Developing technical design documents and program specifications. Guiding requirements gathering sessions.</li>
@@ -208,6 +221,7 @@
     <!--End row-->
 </div>
 <!--End block content-->
+
 
 							
 <!--Block content-->
