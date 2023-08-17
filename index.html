@@ -64,10 +64,27 @@
 
 					<!--Main header-->
 					<div class="main-header">
-					
+					<style>
+							.image-container {
+									  perspective: 1000px; /* Depth of 3D space */
+									  transform-style: preserve-3d;
+									  width: 300px; /* Adjust as needed */
+									  height: 400px; /* Adjust as needed */
+									}
+									
+									img1 {
+									  width: 100%;
+									  height: 100%;
+									  transform: rotateY(30deg) translateZ(50px); /* Adjust values for desired effect */
+									}
+
+						</style>
 					<!--Profile image-->
 					<div class="img-profile">
-						<img src="img/Profile.jpg" alt=""/>
+						<div class="image-container">
+                                                    <img1 src="img/Profile.jpg" alt="3D Image">
+                                                </div>
+						
 						
 						<div class="name-profile t-center">
 							<h5 class="uppercase">Neel Patel</h5>
